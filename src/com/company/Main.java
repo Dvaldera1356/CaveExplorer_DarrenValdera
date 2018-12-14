@@ -15,7 +15,31 @@ public class Main {
     System.out.println("Hello " + user + "!");
 
     System.out.println("Stupid filler lore");
-    //eventually this will pick difficulty after this setting array size
 
+    Math.random();
+    int[][] array = new int[5][5];
+    
+    for(int i = 0; i<5; i++)
+        for(int j = 0; j<5; j++)
+            array[i][j] = 0;
+    
+    for(int i = 0; i<5; i++)
+    {
+        for(int j = 0; j<5; j++)
+        {
+            System.out.print(array[i][j]);
+        }
+        System.out.println();
+    }
+    //**ALL ROOMS IN THE GAMES**
+    //Room UndergroundLake = new Room();
+    //Room OldCaveDwelling = new Room();
+    //Room DeadEnd = new Room();
+    //Room SafeCave = new Room();
+    //Room DangerCave = New Room():
+
+     //eventually this will pick difficulty after this setting array size
+    //(IMPORTANT CODE I JUST DON'T KNOW WHERE IT GOES)
+    // **String Rooms[] = {"UndergroundLake", "OldCaveDwelling", "DeadEnd", "SafeCave"};**
     }
 }

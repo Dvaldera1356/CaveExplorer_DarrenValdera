@@ -1,10 +1,25 @@
 package com.company;
 
-public class Room {
+public class Room implements RoomInterface {
+    //Things that go in rooms
+    private Item roomItem;
+    private NPC roomNPC;
 
-    private class Item{
+    //how room code should look
+    public Room(Item roomItem, NPC roomNPC) {
+
+        this.roomItem = roomItem;
+        this.roomNPC = roomNPC;
 
     }
+    public Item getroomItem(){
+        return this.roomItem;
+    }
+
+    public NPC getroomNPC(){
+        return this.roomNPC;
+    }
+}
 
 
     //UndergroundLake
@@ -21,4 +36,4 @@ public class Room {
     //SafeCave
         //Villager
 
-}
+
